@@ -1,7 +1,7 @@
 %Mullers Method in MATLAB
 %Author: R Abhinandan
 %AM.EN.U4ME18040
-f=@(x) x^4-3*x^3+x^2+x+1; %Change the functions 
+f=@(x) x^4-3*x^3+x^2+x+1; %Change the function
 p0=0.5; p1=-0.5; p2=0; %Change the inital values
 tol=10^-5; h1 = p1-p0; h2 = p2-p1; d1=(f(p1)-f(p0))/h1; d2=(f(p2)-f(p1))/h2; d=(d2-d1)/(h2 + h1); i = 3;
 while i<100
