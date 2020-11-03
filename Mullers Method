@@ -16,6 +16,7 @@ while i<100
     p = p2 + h;
     if abs(h)<tol
         disp(p);
+        break
     end
     p0 = p1;
     p1 = p2;
@@ -27,3 +28,9 @@ while i<100
     d = (d2-d1)/(h2 + h1);
     i = i + 1;
 end
+figure
+plot(err)
+title('Convergence of Mullers')
+ylabel('Error')
+xlabel('Iterations')
+axis ([4 9 0 10e-2]) %Don't change the '4'. Change the '9' as per the 'i' value in the workspace, ie no of iterations required to compute the root   
