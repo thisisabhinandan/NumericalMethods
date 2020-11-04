@@ -23,6 +23,7 @@ while i<100
 end
 figure
 plot(err)
+grid on 
 title('Convergence of Secant')
 ylabel('Error')
 xlabel('Iterations')
