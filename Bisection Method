@@ -23,7 +23,7 @@ while i<100
 end
 figure
 plot(err)
-title('Convergence of B')
+title('Convergence of Bisection')
 ylabel('Error')
 xlabel('Iterations')
 axis ([0 16 0 10e-2]) %Change the '16' as per the 'i' value in the workspace, ie no of iterations required to compute the root
