@@ -27,6 +27,7 @@ while i<100
     d2 = (f(p2)-f(p1))/h2;
     d = (d2-d1)/(h2 + h1);
     i = i + 1;
+    err(i)=abs(h);
 end
 figure
 plot(err)
