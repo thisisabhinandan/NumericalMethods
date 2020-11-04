@@ -18,6 +18,7 @@ while i<100
 end
 figure
 plot(err)
+grid on 
 title('Convergence of Newton Raphson')
 ylabel('Error')
 xlabel('Iterations')
