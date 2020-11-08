@@ -12,6 +12,8 @@ Do not use the functions I have used.
 
 Do not copy paste the code for your assignmnets or projects. 
 
+Will update the rest soon 
+
 Contents: 
 Bisection method-when the interval is given
 Regula-Falsi Method
