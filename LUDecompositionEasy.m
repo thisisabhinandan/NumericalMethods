@@ -8,3 +8,4 @@ x=U\d;
 disp(L); 
 disp(U);
 disp(x); 
+%No graph for this method 
