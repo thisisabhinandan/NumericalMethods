@@ -12,6 +12,4 @@ end
 disp(x1(50));
 disp(x2(50));
 disp(x3(50));
-    
-   
-    
+%Coudn't plot graph for this    
