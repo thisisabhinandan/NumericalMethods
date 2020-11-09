@@ -10,6 +10,8 @@ Plagiarising the code can get you into trouble, do it at your own risk.
 
 Do not use the functions I have used. 
 
+Do not use the variables names I have used 
+
 Do not copy paste the code for your assignmnets or projects. 
 
 Will update the rest soon 
