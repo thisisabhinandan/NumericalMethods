@@ -2,7 +2,7 @@
 %Author:R Abhinandan
 %AM.EN.U4ME18040
 A=[2 1 1 ; 2 2 -3 ; -4 4 5 ];%Enter a Matrix and don't use this
-b=[7;10;14]; %Enter your initial guesses
+b=[7;10;14]; 
 n=3; 
 for k=1:n-1 
 for i=k+1:n
