@@ -1,0 +1,13 @@
+%Lagrange Interpolation Method in MATLAB
+%Author: R Abhinandan
+%AM.EN.U4ME18040
+f=@(x) log(x); %Enter your function, Don't use this 
+x0=1;%Enter intial Values 
+a=f(x0); 
+x1=4;%Enter intial Values 
+b=f(x1);
+x2=6;%Enter intial Values
+c=f(x2); 
+x=2; %Input x to compute 
+fx1=((x-x1)/(x0-x1))*a + ((x-x0)/(x1-x0))*b; %First order 
+fx2=((x-x1)*(x-x2)/((x0-x1)*(x0-x2)))*a + ((x-x0)*(x-x2)/((x1-x0)*(x1-x2)))*b + ((x-x0)*(x-x1)/((x2-x0)*(x2-x1)))*c; %Second order 
